@@ -1,3 +1,7 @@
+### UML borrador:
+![SistemaEditorialInternacional.png](SistemaEditorialInternacional.png)
+
+### Problematica:
 Se quiere crear un sistema para una Editorial internacional.
 
 La editorial tiene como integrantes a editores y autores, teniendo los autores sólo información de los textos que han escrito.
