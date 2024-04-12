@@ -4,17 +4,18 @@ public abstract class Texto {
 	// atributos
 	private Localizacion localizacion;
 	private ArrayList<Edicion> ediciones;
-	private Editorial editorial;
 	private Autor autor;
 	private String titulo;
+	private String informacionImpresion;
+	private Editor editorAprobador;
 
 	// constructor
-	public Texto(Localizacion localizacion, Autor autor, String titulo, Editorial editorial) {
+	public Texto(String titulo, Autor autor, Localizacion localizacion, String informacionImpresion, ArrayList<Edicion> ediciones) {
 		this.localizacion = localizacion;
 		this.autor = autor;
 		this.titulo = titulo;
 		this.ediciones = new ArrayList<Edicion>();
-		this.editorial = editorial;
+		this.informacionImpresion = informacionImpresion;
 	}
 
 	// getters y setters
@@ -46,11 +47,18 @@ public abstract class Texto {
 		this.titulo = titulo;
 	}
 
-	public Editorial getEditorial() {
-		return editorial;
+	public String getInformacionImpresion() {
+		return informacionImpresion;
 	}
-	public void setEditorial(Editorial editorial) {
-		this.editorial = editorial;
+	public void setInformacionImpresion(String informacionImpresion) {
+		this.informacionImpresion = informacionImpresion;
+	}
+
+	public Editor getEditorAprobador() {
+		return editorAprobador;
+	}
+	public void setEditorAprobador(Editor editorAprobador) {
+		this.editorAprobador = editorAprobador;
 	}
 
 	// metodos
@@ -62,7 +70,9 @@ public abstract class Texto {
 		return "Titulo: " + titulo + "\n" +
 				"Autor: " + autor + "\n" +
 				"Ediciones: " + ediciones + "\n" +
-				"Editorial: " + editorial + "\n" +
+				"Editor aprobador: " + editorAprobador + "\n" +
+				"Informacion de impresion: " + informacionImpresion + "\n" +
 				"Localizacion: " + localizacion + "\n";
 	}
+
 }

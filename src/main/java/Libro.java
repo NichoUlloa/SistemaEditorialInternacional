@@ -4,14 +4,12 @@ public class Libro extends Texto {
     // atributos
     private String isbn;
     private int anioPublicacion;
-    private String informacionImpresion;
 
     // constructor
-    public Libro(Localizacion localizacion, Autor autor, String titulo, Editorial editorial, String isbn, int anioPublicacion, String informacionImpresion) {
+    public Libro(Localizacion localizacion, Autor autor, String titulo, Editorial editorial, String isbn, int anioPublicacion) {
         super(localizacion, autor, titulo, editorial);
         this.isbn = isbn;
         this.anioPublicacion = anioPublicacion;
-        this.informacionImpresion = informacionImpresion;
     }
 
     // getters y setters
@@ -29,14 +27,6 @@ public class Libro extends Texto {
         this.anioPublicacion = anioPublicacion;
     }
 
-    public String getInformacionImpresion() {
-        return informacionImpresion;
-    }
-
-    public void setInformacionImpresion(String informacionImpresion) {
-        this.informacionImpresion = informacionImpresion;
-    }
-
     // metodos
     // metodo getTipoTexto
     public String getTipoTexto() {
@@ -48,7 +38,6 @@ public class Libro extends Texto {
         return super.toString() +
                 "ISBN: " + isbn + "\n" +
                 "Año de publicacion: " + anioPublicacion + "\n" +
-                "Informacion de impresion: " + informacionImpresion + "\n" +
                 "Tipo de texto: " + getTipoTexto() + "\n";
     }
 

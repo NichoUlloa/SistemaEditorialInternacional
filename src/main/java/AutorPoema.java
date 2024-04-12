@@ -1,19 +1,8 @@
 public class AutorPoema extends Autor {
-    // atributos
-    private String seudonimo;
 
     // constructor
-    public AutorPoema(String nombreIntegrante, String apellidoIntegrante, String rutIntegrante, String seudonimo) {
-        super(nombreIntegrante, apellidoIntegrante, rutIntegrante);
-        this.seudonimo = seudonimo;
-    }
-
-    // getters y setters
-    public String getSeudonimo() {
-        return seudonimo;
-    }
-    public void setSeudonimo(String seudonimo) {
-        this.seudonimo = seudonimo;
+    public AutorPoema(String nombreIntegrante, String apellidoIntegrante, String rutIntegrante, Editorial editorialPerteneciente, String seudonimo) {
+        super(nombreIntegrante, apellidoIntegrante, rutIntegrante, editorialPerteneciente, seudonimo);
     }
 
     // metodos
@@ -25,7 +14,6 @@ public class AutorPoema extends Autor {
     @Override
     public String toString() {
         return super.toString() +
-                "Seudonimo: " + seudonimo + "\n" +
                 "Tipo de autor: " + getTipoAutor() + "\n";
     }
 }
