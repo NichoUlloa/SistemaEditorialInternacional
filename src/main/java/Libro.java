@@ -1,3 +1,55 @@
+import java.util.ArrayList;
+
 public class Libro extends Texto {
-	public Localizacion unnamed_Localizacion_;
+    // atributos
+    private String isbn;
+    private int anioPublicacion;
+    private String informacionImpresion;
+
+    // constructor
+    public Libro(Localizacion localizacion, Autor autor, String titulo, Editorial editorial, String isbn, int anioPublicacion, String informacionImpresion) {
+        super(localizacion, autor, titulo, editorial);
+        this.isbn = isbn;
+        this.anioPublicacion = anioPublicacion;
+        this.informacionImpresion = informacionImpresion;
+    }
+
+    // getters y setters
+    public String getIsbn() {
+        return isbn;
+    }
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getAnioPublicacion() {
+        return anioPublicacion;
+    }
+    public void setAnioPublicacion(int anioPublicacion) {
+        this.anioPublicacion = anioPublicacion;
+    }
+
+    public String getInformacionImpresion() {
+        return informacionImpresion;
+    }
+
+    public void setInformacionImpresion(String informacionImpresion) {
+        this.informacionImpresion = informacionImpresion;
+    }
+
+    // metodos
+    // metodo getTipoTexto
+    public String getTipoTexto() {
+        return "Libro";
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "ISBN: " + isbn + "\n" +
+                "Año de publicacion: " + anioPublicacion + "\n" +
+                "Informacion de impresion: " + informacionImpresion + "\n" +
+                "Tipo de texto: " + getTipoTexto() + "\n";
+    }
+
 }

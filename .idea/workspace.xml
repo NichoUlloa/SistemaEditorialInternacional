@@ -4,29 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753c873f-e2d9-4132-9fd2-4f0a5616c8b9" name="Changes" comment="Primer commit, creacion de README.md">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AgenciaLibreria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutorComic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutorLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutorPoema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CiudadOrigen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Comic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Edicion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Editorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Integrante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Localizacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Poemario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SistemaEditorialInternacional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Texto.java" afterDir="false" />
+    <list default="true" id="753c873f-e2d9-4132-9fd2-4f0a5616c8b9" name="Changes" comment="actualizacion uml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ciudad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AgenciaLibreria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AgenciaLibreria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutorComic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutorComic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutorLibro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutorLibro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutorPoema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutorPoema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CiudadOrigen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Edicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Edicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Editorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Integrante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Integrante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Localizacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Localizacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Poemario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Poemario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Texto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Texto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Nicho/IdeaProjects/SistemaEditorialInternacional/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Nicho/IdeaProjects/SistemaEditorialInternacional/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1712663346379</updated>
       <workItem from="1712663347484" duration="45000" />
-      <workItem from="1712663485579" duration="1081000" />
+      <workItem from="1712663485579" duration="1319000" />
+      <workItem from="1712681751674" duration="28000" />
+      <workItem from="1712885026971" duration="8062000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit, creacion de README.md">
       <option name="closed" value="true" />
@@ -99,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712663788853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creacion de clases y primeras relaciones">
+      <option name="closed" value="true" />
+      <created>1712664659732</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712664659732</updated>
+    </task>
+    <task id="LOCAL-00003" summary="actualizacion uml">
+      <option name="closed" value="true" />
+      <created>1712664801766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712664801766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +122,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit, creacion de README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit, creacion de README.md" />
+    <MESSAGE value="creacion de clases y primeras relaciones" />
+    <MESSAGE value="actualizacion uml" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion uml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

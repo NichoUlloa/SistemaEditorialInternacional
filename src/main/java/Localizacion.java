@@ -1,10 +1,19 @@
 public class Localizacion {
+	// atributos
 	private boolean isTextoCensurado;
 	private boolean isTextoInterpretado;
-	public Edicion edicion;
-	public Libro libro;
-	public Pais pais;
+	private Ciudad ciudadOrigen;
+	private Pais pais;
 
+	// constructor
+	public Localizacion(Ciudad ciudadOrigen, Pais pais) {
+		this.ciudadOrigen = ciudadOrigen;
+		this.pais = pais;
+		this.isTextoCensurado = false;
+		this.isTextoInterpretado = false;
+	}
+
+	// getters y setters
 	public boolean getIsTextoCensurado() {
 		return this.isTextoCensurado;
 	}
@@ -19,18 +28,11 @@ public class Localizacion {
 		this.isTextoInterpretado = isTextoInterpretado;
 	}
 
-	public Edicion getEdicion() {
-		return this.edicion;
+	public Ciudad getCiudadOrigen() {
+		return this.ciudadOrigen;
 	}
-	public void setEdicion(Edicion edicion) {
-		this.edicion = edicion;
-	}
-
-	public Libro getLibro() {
-		return this.libro;
-	}
-	public void setLibro(Libro libro) {
-		this.libro = libro;
+	public void setCiudadOrigen(Ciudad ciudadOrigen) {
+		this.ciudadOrigen = ciudadOrigen;
 	}
 
 	public Pais getPais() {
@@ -40,11 +42,12 @@ public class Localizacion {
 		this.pais = pais;
 	}
 
-	public Localizacion(boolean isTextoCensurado, boolean isTextoInterpretado, Edicion edicion, Libro libro, Pais pais) {
-		this.isTextoCensurado = isTextoCensurado;
-		this.isTextoInterpretado = isTextoInterpretado;
-		this.edicion = edicion;
-		this.libro = libro;
-		this.pais = pais;
+	// metodos
+	@Override
+	public String toString() {
+		return "Ciudad de origen: " + ciudadOrigen + "\n" +
+				"Pais: " + pais + "\n" +
+				"Texto censurado: " + isTextoCensurado + "\n" +
+				"Texto interpretado: " + isTextoInterpretado + "\n";
 	}
 }
