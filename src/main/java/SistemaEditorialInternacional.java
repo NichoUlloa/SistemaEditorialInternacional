@@ -129,7 +129,4 @@ public class SistemaEditorialInternacional {
         return "Numero de impresiones: " + texto.getNumeroImpresiones() + "\n" +
                 "Numero de ventas: " + texto.getNumeroVentas();
     }
-
-
-
 }

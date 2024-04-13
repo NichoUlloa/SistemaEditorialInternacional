@@ -8,6 +8,8 @@ public abstract class Texto {
 	private String titulo;
 	private String informacionImpresion;
 	private Editor editorAprobador;
+	private int numeroImpresiones;
+	private int numeroVentas;
 
 	// constructor
 	public Texto(String titulo, Autor autor, Localizacion localizacion, String informacionImpresion, ArrayList<Edicion> ediciones) {
@@ -59,6 +61,20 @@ public abstract class Texto {
 	}
 	public void setEditorAprobador(Editor editorAprobador) {
 		this.editorAprobador = editorAprobador;
+	}
+
+	public int getNumeroImpresiones() {
+		return numeroImpresiones;
+	}
+	public void setNumeroImpresiones(int numeroImpresiones) {
+		this.numeroImpresiones = numeroImpresiones;
+	}
+
+	public int getNumeroVentas() {
+		return numeroVentas;
+	}
+	public void setNumeroVentas(int numeroVentas) {
+		this.numeroVentas = numeroVentas;
 	}
 
 	// metodos
